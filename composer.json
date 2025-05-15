@@ -1,0 +1,23 @@
+{
+    "name": "medan-web/tools",
+    "description": "laravel medan-web tools package",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "MedanWeb\\Tools\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "anditsung",
+            "email": "anditsung@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
