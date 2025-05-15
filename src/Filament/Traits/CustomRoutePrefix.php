@@ -4,8 +4,8 @@ namespace MedanWeb\Tools\Filament\Traits;
 
 trait CustomRoutePrefix
 {
-    public static function getRoutePrefix(): string
+    public static function getRoutePrefix($prefix = 'mw_'): string
     {
-        return 'mw_' . static::getSlug();
+        return $prefix . static::getSlug();
     }
 }
